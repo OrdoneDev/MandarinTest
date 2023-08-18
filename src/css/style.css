@@ -1,0 +1,126 @@
+body {
+  margin: 20px;
+  background-color: #f2f2f2;
+  font-family: Arial;
+}
+
+header {
+  background: linear-gradient(to right, #e9492a, #e72357);
+  display: flex;
+  color: #fff;
+  height: 140px;
+}
+
+.header_left_side {
+  width: 33.333%;
+}
+
+#circulo_tracejado {
+  margin-top: 20px;
+  margin-left: -15px;
+}
+
+#manda_trends {
+  margin-bottom: 70px;
+  margin-left: -50px;
+  height: 70px;
+}
+
+#bolinhas {
+  margin-left: 5px;
+}
+
+.header_center {
+  width: 33.333%;
+}
+
+#setas {
+  margin-bottom: 20px;
+}
+
+#mulher {
+  margin-bottom: -100px;
+  margin-left: -50px;
+}
+
+.header_right_side {
+  width: 33.333%;
+}
+
+.header_right_side p,h3 {
+    margin: 0;
+}
+
+#triangulo {
+  margin-left: 210px;
+}
+
+#zigzag {
+  margin-bottom: 50px;
+}
+
+main {
+  background-color: #fff;
+  padding: 35px;
+}
+
+#nrf_2020 {
+  width: 100%;
+}
+
+.line_separator_nrf_2020 {
+  background: linear-gradient(to right, #e62259, #695ba3);
+  width: 40%;
+  height: 5px;
+}
+
+.content_make_kobe_the_logo_nba {
+  margin-top: 20px;
+  width: 50%;
+}
+
+.line_separator_make_kobe_the_logo_nba {
+  background: linear-gradient(to right, #76c6cf, #675fa6);
+  width: 40%;
+  height: 5px;
+}
+
+.content_whatsapp_payment_2020 {
+  margin-top: 20px;
+  width: 50%;
+}
+
+.line_separator_whatsapp_payment_2020 {
+  background: linear-gradient(to right, #75c7cf, #38b388);
+  width: 40%;
+  height: 5px;
+}
+
+footer {
+  text-align: center;
+}
+
+.nossa-empresa {
+  background-color: #fc4c02;
+}
+
+#logo_assinatura {
+  margin: 20px;
+  width: 300px;
+}
+
+.info-copyright {
+  margin-top: 20px;
+  font-size: 11px;
+  color: #333;
+}
+
+.info-copyright a {
+  color: #333;
+}
+
+@media screen and (max-width: 600px) {
+  main {
+    padding: 10px;
+  }
+}
