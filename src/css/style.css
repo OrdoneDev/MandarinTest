@@ -1,126 +1,168 @@
 body {
-  margin: 20px;
+  margin: 1.25rem;
   background-color: #f2f2f2;
-  font-family: Arial;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
 }
 
 header {
   background: linear-gradient(to right, #e9492a, #e72357);
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   color: #fff;
-  height: 140px;
+}
+
+header div {
+  height: 10rem;
 }
 
 .header_left_side {
-  width: 33.333%;
+  display: flex;
 }
 
 #circulo_tracejado {
-  margin-top: 20px;
-  margin-left: -15px;
+  margin-top: 1rem;
 }
 
 #manda_trends {
-  margin-bottom: 70px;
-  margin-left: -50px;
-  height: 70px;
+  height: 5rem;
+  margin-top: 2rem;
+  margin-left: -3rem;
 }
 
 #bolinhas {
-  margin-left: 5px;
+  height: 5rem;
+  margin-top: 7.9rem;
+  margin-left: 0.5rem;
 }
 
 .header_center {
-  width: 33.333%;
+  display: flex;
 }
 
 #setas {
-  margin-bottom: 20px;
+  height: 1.5rem;
+  margin-top: 1rem;
+  margin-left: 1.5rem;
 }
 
 #mulher {
-  margin-bottom: -100px;
-  margin-left: -50px;
+  height: 12rem;
+  margin-top: 3rem;
+  margin-left: -3.5rem;
 }
 
 .header_right_side {
-  width: 33.333%;
-}
-
-.header_right_side p,h3 {
-    margin: 0;
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
 }
 
 #triangulo {
-  margin-left: 210px;
+  height: 1.7rem;
+  margin-top: 0.25rem;
+  margin-left: auto;
+  margin-right: 2rem;
 }
 
 #zigzag {
-  margin-bottom: 50px;
+  height: 0.7rem;
+  margin-left: auto;
+  margin-right: 3.8rem;
+}
+
+.header_right_side h3 {
+  font-weight: 100;
+  margin-top: -0.1rem;
+  margin-right: 3.8rem;
+}
+
+.header_right_side p {
+  margin-top: -0.2rem;
+  margin-right: 3.8rem;
+  font-size: 0.7rem;
+}
+
+.header_right_side h3 {
+  text-align: right;
+}
+
+.header_right_side p {
+  text-align: right;
 }
 
 main {
   background-color: #fff;
-  padding: 35px;
+  padding: 2.2rem;
 }
 
-#nrf_2020 {
-  width: 100%;
+.description_nrf2020 {
+  color: #676767;
+}
+
+.news_fonte {
+  color: #a8a29e;
+  font-size: 0.7rem;
 }
 
 .line_separator_nrf_2020 {
   background: linear-gradient(to right, #e62259, #695ba3);
   width: 40%;
-  height: 5px;
+  height: 0.3rem;
 }
 
-.content_make_kobe_the_logo_nba {
-  margin-top: 20px;
-  width: 50%;
+.sub_contents {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .line_separator_make_kobe_the_logo_nba {
   background: linear-gradient(to right, #76c6cf, #675fa6);
   width: 40%;
-  height: 5px;
-}
-
-.content_whatsapp_payment_2020 {
-  margin-top: 20px;
-  width: 50%;
+  height: 0.3rem;
 }
 
 .line_separator_whatsapp_payment_2020 {
   background: linear-gradient(to right, #75c7cf, #38b388);
   width: 40%;
-  height: 5px;
+  height: 0.3rem;
 }
 
 footer {
   text-align: center;
 }
 
-.nossa-empresa {
+.footer-empresa {
   background-color: #fc4c02;
 }
 
 #logo_assinatura {
-  margin: 20px;
-  width: 300px;
+  margin: 1rem;
+  width: 19rem;
 }
 
-.info-copyright {
-  margin-top: 20px;
-  font-size: 11px;
+.footer-copyright {
+  margin-top: 1.5rem;
+  font-size: 0.7rem;
   color: #333;
 }
 
-.info-copyright a {
+.footer-copyright a {
   color: #333;
 }
 
-@media screen and (max-width: 600px) {
-  main {
-    padding: 10px;
+@media screen and (max-width: 900px) {
+  .header_right_side h3 {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  header {
+      grid-template-columns: repeat(1, 1fr);
+  }
+
+  .header_right_side {
+    margin-top: 4rem;
   }
 }
