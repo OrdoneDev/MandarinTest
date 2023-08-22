@@ -97,6 +97,7 @@ main {
 
 main img {
   margin-bottom: -0.7rem;
+  width: 100%;
 }
 
 .description_nrf2020 {
@@ -120,6 +121,14 @@ main img {
   margin-top: 1rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+}
+
+.content_make_kobe_the_logo_nba {
+  padding-right: 0.5rem;
+}
+
+.content_whatsapp_payment_2020 {
+  padding-left: 0.5rem;
 }
 
 .line_separator_make_kobe_the_logo_nba {
@@ -161,14 +170,12 @@ footer {
   .header_right_side h3 {
     font-size: 1rem;
   }
+
+  .header_right_side p {
+    font-size: 0.6rem;
+  }
 }
 
-@media screen and (max-width: 426px) {
-  header {
-      grid-template-columns: repeat(1, 1fr);
-  }
+@media screen and (max-width: 720px) {
 
-  .header_right_side {
-    margin-top: 4rem;
-  }
 }
