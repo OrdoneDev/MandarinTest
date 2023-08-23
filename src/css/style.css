@@ -272,8 +272,7 @@ footer {
   }
   
   #bolinhas {
-    height: 4rem;
-    margin-top: 7.7rem;
+    margin-top: 6.15rem;
   }
 
   #setas {
@@ -375,7 +374,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 335px) {
   header, .sub_contents {
     grid-template-columns: repeat(1, 1fr);
   }
