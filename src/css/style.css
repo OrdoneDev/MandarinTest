@@ -402,41 +402,64 @@ footer {
   }
 }
 
-@media screen and (max-width: 335px) {
+@media screen and (max-width: 429px) {
   header, .sub_contents {
     grid-template-columns: repeat(1, 1fr);
   }
 
   header div {
-    height: 3.5rem;
+    height: 4rem;
+  }
+
+  #circulo_tracejado {
+    height: 7.5rem;
+    margin-left: -0.5rem;
+  }
+
+  #manda_trends {
+    height: 3rem;
+  }
+
+  #bolinhas {
+    height: 1.4rem;
+    margin-left: 0.25rem;
+    margin-top: 5.67rem;
   }
 
   #setas {
-    margin-left: 3.65rem;
+    height: 1rem;
+    margin-left: 5rem;
     margin-top: 2rem;
   }
 
   #mulher {
+    height: 8.5rem;
     margin-top: 3rem;
-    margin-left: -2.1rem;
+    margin-left: -2.34rem;
   }
 
   #triangulo {
-    margin-top: -2rem;
-    margin-right: 1.7rem;
+    height: 1.25rem;
+    margin-top: -4rem;
+    margin-right: 2rem;
   }
 
   .header_right_side h3 {
-    margin-top: -1.75rem;
-    margin-right: 2.7rem;
+    font-size: 0.9rem;
+    margin-top: -3.5rem;
+    margin-right: 3.25rem;
   }
 
   .header_right_side p {
-    margin-right: 2.7rem;
+    font-size: 0.5rem;
+    margin-top: -0.5rem;
+    margin-right: 3.25rem;
   }
 
   #zigzag {
-    margin-right: 2.7rem;
+    height: 0.35rem;
+    margin-top: -0.5rem;
+    margin-right: 3.25rem;
   }
 
   .content_make_kobe_the_logo_nba {
@@ -447,15 +470,103 @@ footer {
     padding-top: 1rem;
     padding-left: 0rem;
   }
+}
+
+@media screen and (max-width: 400px) {
+  header div {
+    height: 3.5rem;
+  }
+
+  #setas {
+    height: 0.75rem;
+    margin-top: 2.35rem;
+  }
+
+  #bolinhas {
+    height: 1.25rem;
+  }
+
+  #mulher {
+    height: 6.5rem;
+    margin-top: 3.25rem;
+    margin-left: -2rem;
+  }
+
+  #triangulo {
+    height: 1.15rem;
+    margin-top: -2.25rem;
+    margin-right: 1.5rem;
+  }
+
+  .header_right_side h3 {
+    font-size: 0.7rem;
+    margin-top: -1.5rem;
+    margin-right: 2.65rem;
+  }
+
+  .header_right_side p {
+    font-size: 0.4rem;
+    margin-top: -0.25rem;
+    margin-right: 2.65rem;
+  }
+
+  #zigzag {
+    height: 0.3rem;
+    margin-top: 0rem;
+    margin-right: 2.65rem;
+  }
+}
+
+@media screen and (max-width: 335px) {
+  header, .sub_contents {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  header div {
+    height: 3.5rem;
+  }
+
+  #setas {
+    height: 0.8rem;
+    margin-left: 4rem;
+    margin-top: 2.25rem;
+  }
+
+  #mulher {
+    height: 6rem;
+    margin-top: 3.5rem;
+    margin-left: -1.95rem;
+  }
+
+  #triangulo {
+    height: 1rem;
+    margin-top: -2rem;
+    margin-right: 1.7rem;
+  }
+
+  .header_right_side h3 {
+    font-size: 0.7rem;
+    margin-top: -1.75rem;
+    margin-right: 2.7rem;
+  }
+
+  .header_right_side p {
+    font-size: 0.4rem;
+    margin-right: 2.7rem;
+  }
+
+  #zigzag {
+    margin-right: 2.7rem;
+  }
 
   #circulo_tracejado {
     height: 6.5rem;
   }
 
   #bolinhas {
-    height: 1.3rem;
-    margin-top: 5.25rem;
-    margin-left: 0.5rem;
+    height: 1.2rem;
+    margin-top: 5.5rem;
+    margin-left: 0rem;
   }
 
   #logo_assinatura {
