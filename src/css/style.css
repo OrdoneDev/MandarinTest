@@ -36,9 +36,9 @@ header div {
 }
 
 #bolinhas {
-  height: 5.5rem;
+  height: 2.5rem;
   margin-top: 11.2rem;
-  margin-left: 1rem;
+  margin-left: 0.5rem;
 }
 
 .header_center {
@@ -79,19 +79,13 @@ header div {
   font-weight: 100;
   margin-top: 0.5rem;
   margin-right: 3.8rem;
+  text-align: right;
 }
 
 .header_right_side p {
   margin-top: -0.2rem;
   margin-right: 3.8rem;
   font-size: 0.7rem;
-}
-
-.header_right_side h3 {
-  text-align: right;
-}
-
-.header_right_side p {
   text-align: right;
 }
 
@@ -158,7 +152,7 @@ footer {
 
 #logo_assinatura {
   margin: 1rem;
-  width: 19rem;
+  width: 25.5rem;
 }
 
 .footer-copyright {
@@ -171,28 +165,272 @@ footer {
   color: #333;
 }
 
-@media screen and (max-width: 890px) {
+@media screen and (max-width: 900px) {
+  header div {
+    height: 10rem;
+  }
+
+  #manda_trends {
+    height: 5rem;
+    margin-top: 2.5rem;
+    margin-left: -3rem;
+  }
+
+  #bolinhas {
+    margin-top: 7.65rem;
+  }
+
+  #setas {
+    height: 1.5rem;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+  }
+
+  #mulher {
+    height: 12rem;
+    margin-top: 3rem;
+    margin-left: -3.5rem;
+  }
+
+  #triangulo {
+    margin-top: 0.25rem;
+  }
+
   .header_right_side h3 {
+    margin-top: -0.1rem;
     font-size: 1rem;
   }
 
   .header_right_side p {
     font-size: 0.6rem;
   }
+
+  #logo_assinatura {
+    width: 20rem;
+  }
 }
 
-@media screen and (max-width: 720px) {
-  header {
-    grid-template-columns: repeat(2, 1fr);
+@media screen and (max-width: 775px) {
+  #manda_trends {
+    height: 4.5rem;
+    margin-top: 3rem;
+  }
+
+  #bolinhas {
+    height: 2rem;
+    margin-top: 8.15rem;
+  }
+
+  #setas {
+    height: 1.35rem;
+    margin-left: 0.5rem;
+  }
+
+  #mulher {
+    height: 11.5rem;
+    margin-top: 3.1rem;
+  }
+
+  #triangulo {
+    height: 1.5rem;
+  }
+
+  #zigzag {
+    height: 0.5rem;
   }
 
   .header_right_side {
-    margin-top: 5rem;
-    margin-right: -2.7rem;
+    margin-right: -1.35rem;
   }
 
-  .header_center {
-    margin-top: 10rem;
-    margin-left: -20rem;
+  .header_right_side h3 {
+    font-size: 1rem;
+  }
+
+  .header_right_side p {
+    font-size: 0.55rem;
+  }
+
+  main h2 {
+    font-size: 1.35rem;
+  }
+
+  #logo_assinatura {
+    width: 19rem;
+  }
+}
+
+@media screen and (max-width: 683px) {
+  header div {
+    height: 8rem;
+  }
+
+  #manda_trends {
+    height: 3.5rem;
+    margin-top: 2.5rem;
+    margin-left: -2rem;
+  }
+  
+  #bolinhas {
+    height: 4rem;
+    margin-top: 7.7rem;
+  }
+
+  #setas {
+    height: 1.2rem;
+  }
+
+  #mulher {
+    height: 9.5rem;
+    margin-top: 2.3rem;
+    margin-left: -2.9rem;
+  }
+
+  .header_right_side h3 {
+    font-size: 0.8rem;
+  }
+
+  .header_right_side p {
+    font-size: 0.5rem;
+  }
+
+  main h2 {
+    font-size: 1.2rem;
+  }
+
+  .description_nrf2020 {
+    font-size: 0.8rem;
+  }
+
+  .news_fonte {
+    font-size: 0.5rem;
+  }
+
+  #logo_assinatura {
+    width: 16rem;
+  }
+
+  .footer-copyright {
+    font-size: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 565px) {
+  header div {
+    height: 7rem;
+  }
+
+  #circulo_tracejado {
+    height: 8rem;
+    margin-left: -0.5rem;
+  }
+
+  #manda_trends {
+    height: 3rem;
+  }
+
+  #bolinhas {
+    height: 1.5rem;
+    margin-left: 0.25rem;
+    margin-top: 5.67rem;
+  }
+
+  #setas {
+    height: 1rem;
+    margin-left: 0rem;
+  }
+
+  #mulher {
+    height: 7.5rem;
+    margin-top: 2.5rem;
+    margin-left: -2.35rem;
+  }
+
+  #triangulo {
+    height: 1rem;
+    margin-top: 0.4rem;
+    margin-right: 1.75rem;
+  }
+
+  .header_right_side h3 {
+    font-size: 0.60rem;
+    margin-top: 0.2rem;
+    margin-right: 2.75rem;
+  }
+
+  .header_right_side p {
+    font-size: 0.4rem;
+    margin-top: 0rem;
+    margin-right: 2.75rem;
+  }
+
+  #zigzag {
+    height: 0.35rem;
+    margin-top: -0.1rem;
+    margin-right: 2.75rem;
+  }
+
+  #logo_assinatura {
+    width: 14rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  header, .sub_contents {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  header div {
+    height: 4rem;
+  }
+
+  #circulo_tracejado {
+    height: 6.5rem;
+  }
+
+  #bolinhas {
+    height: 1.3rem;
+  }
+
+  #setas {
+    margin-left: 3.65rem;
+    margin-top: 2rem;
+  }
+
+  #mulher {
+    margin-top: 3.5rem;
+    margin-left: -2.4rem;
+  }
+
+  #triangulo {
+    margin-top: -2rem;
+    margin-right: 1.7rem;
+  }
+
+  .header_right_side h3 {
+    margin-top: -1.75rem;
+    margin-right: 2.7rem;
+  }
+
+  .header_right_side p {
+    
+    margin-right: 2.7rem;
+  }
+
+  #zigzag {
+    margin-right: 2.7rem;
+  }
+
+  .content_make_kobe_the_logo_nba {
+    padding-right: 0rem;
+  }
+  
+  .content_whatsapp_payment_2020 {
+    padding-top: 1rem;
+    padding-left: 0rem;
+  }
+
+  #logo_assinatura {
+    width: 10rem;
   }
 }
