@@ -374,21 +374,41 @@ footer {
   }
 }
 
+@media screen and (max-width: 470px) {
+  #circulo_tracejado {
+    height: 7rem;
+    margin-left: -0.5rem;
+  }
+
+  #manda_trends {
+    height: 2.5rem;
+    margin-top: 2.5rem;
+  }
+
+  #bolinhas {
+    height: 1.3rem;
+    margin-top: 5.75rem;
+    margin-left: 0rem;
+  }
+
+  #setas {
+    height: 0.85rem;
+  }
+
+  #mulher {
+    height: 7rem;
+    margin-top: 2.8rem;
+    margin-left: -2rem;
+  }
+}
+
 @media screen and (max-width: 335px) {
   header, .sub_contents {
     grid-template-columns: repeat(1, 1fr);
   }
 
   header div {
-    height: 4rem;
-  }
-
-  #circulo_tracejado {
-    height: 6.5rem;
-  }
-
-  #bolinhas {
-    height: 1.3rem;
+    height: 3.5rem;
   }
 
   #setas {
@@ -397,8 +417,8 @@ footer {
   }
 
   #mulher {
-    margin-top: 3.5rem;
-    margin-left: -2.4rem;
+    margin-top: 3rem;
+    margin-left: -2.1rem;
   }
 
   #triangulo {
@@ -412,7 +432,6 @@ footer {
   }
 
   .header_right_side p {
-    
     margin-right: 2.7rem;
   }
 
@@ -427,6 +446,16 @@ footer {
   .content_whatsapp_payment_2020 {
     padding-top: 1rem;
     padding-left: 0rem;
+  }
+
+  #circulo_tracejado {
+    height: 6.5rem;
+  }
+
+  #bolinhas {
+    height: 1.3rem;
+    margin-top: 5.25rem;
+    margin-left: 0.5rem;
   }
 
   #logo_assinatura {
